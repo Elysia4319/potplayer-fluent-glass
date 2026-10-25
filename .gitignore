@@ -1,0 +1,23 @@
+.venv/
+.cache/
+.runtime/
+.release/
+# Default.dsf and derived resources are local build outputs, not public source.
+src/
+dist/
+qa/
+design-tokens.json
+__pycache__/
+reference/
+*.pyc
+qa/*.reg
+qa/player-pid.txt
+qa/backdrop-pid.txt
+qa/*-probe.png
+!qa/alpha-probe.png
+qa/glass-v2.png
+qa/startup-v2-raw.png
+qa/glass-host.json
+qa/*.avi
+qa/*.wav
+.workbuddy-ai/
